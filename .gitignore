@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+.pytest_cache/
+
+# Builds & Outputs
+frontend/.next/
+frontend/out/
+backend/uploads/
+*.db
+*.sqlite
+
+# Environment & IDE
+.env
+.env.local
+.DS_Store
+.idea/
+.vscode/
